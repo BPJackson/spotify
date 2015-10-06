@@ -16,3 +16,4 @@ raix:handlebar-helpers
 accounts-ui
 accounts-base
 dburles:google-maps
+kadira:flow-router

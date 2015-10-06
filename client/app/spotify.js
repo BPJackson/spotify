@@ -50,18 +50,6 @@ Template.spotify.helpers({
     selectedTracks.push(suggestion);
     Session.set('selectedTracks', selectedTracks);  // Session is only reactive on *set* being called.
   }
-
-  exampleMapOptions: function() {
-    // Make sure the maps API has loaded
-    if (GoogleMaps.loaded()) {
-      // Map initialization options
-      return {
-        center: new google.maps.LatLng(-37.8136, 144.9631),
-        zoom: 8
-      };
-    }
-  }
-});
 });
 
 Template.spotify.events({
